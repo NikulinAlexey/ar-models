@@ -1,0 +1,79 @@
+{
+  "generated": "2026-06-08T21:13:02.937Z",
+  "total": 4,
+  "baseUrl": "https://nikulinalexey.github.io/ar-models",
+  "models": [
+    {
+      "id": "mouse-v1",
+      "name": "Mouse",
+      "path": "https://nikulinalexey.github.io/ar-models/models/mouse-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "nolik-v1",
+      "name": "Nolik",
+      "path": "https://nikulinalexey.github.io/ar-models/models/nolik-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/nolik-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/nolik-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "powerbank-v1",
+      "name": "Powerbank",
+      "path": "https://nikulinalexey.github.io/ar-models/models/powerbank-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/powerbank-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/powerbank-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "vape-v1",
+      "name": "Vape",
+      "path": "https://nikulinalexey.github.io/ar-models/models/vape-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/vape-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/vape-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    }
+  ]
+}
