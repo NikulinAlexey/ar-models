@@ -1,8 +1,26 @@
 {
-  "generated": "2026-06-08T21:13:02.937Z",
-  "total": 4,
+  "generated": "2026-06-09T10:40:12.251Z",
+  "total": 6,
   "baseUrl": "https://nikulinalexey.github.io/ar-models",
   "models": [
+    {
+      "id": "corner-v1",
+      "name": "Corner",
+      "path": "https://nikulinalexey.github.io/ar-models/models/corner-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/corner-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/corner-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
     {
       "id": "mouse-v1",
       "name": "Mouse",
@@ -53,6 +71,24 @@
         {
           "name": "tex_u0_v0_normal",
           "url": "https://nikulinalexey.github.io/ar-models/models/powerbank-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "thor-v1",
+      "name": "Thor",
+      "path": "https://nikulinalexey.github.io/ar-models/models/thor-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/thor-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/thor-v1/tex_u0_v0_normal.jpg",
           "type": "jpg"
         }
       ]
