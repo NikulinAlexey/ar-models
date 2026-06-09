@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-09T10:40:12.251Z",
-  "total": 6,
+  "generated": "2026-06-09T21:06:27.586Z",
+  "total": 7,
   "baseUrl": "https://nikulinalexey.github.io/ar-models",
   "models": [
     {
       "id": "corner-v1",
-      "name": "Corner",
+      "name": "Corner-v1",
       "path": "https://nikulinalexey.github.io/ar-models/models/corner-v1/model.glb",
       "format": "glb",
       "textures": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "mouse-v1",
-      "name": "Mouse",
+      "name": "Mouse-v1",
       "path": "https://nikulinalexey.github.io/ar-models/models/mouse-v1/model.glb",
       "format": "glb",
       "textures": [
@@ -40,8 +40,26 @@
       ]
     },
     {
+      "id": "mouse-v2",
+      "name": "Mouse-v2",
+      "path": "https://nikulinalexey.github.io/ar-models/models/mouse-v2/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v2/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v2/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
       "id": "nolik-v1",
-      "name": "Nolik",
+      "name": "Nolik-v1",
       "path": "https://nikulinalexey.github.io/ar-models/models/nolik-v1/model.glb",
       "format": "glb",
       "textures": [
@@ -59,7 +77,7 @@
     },
     {
       "id": "powerbank-v1",
-      "name": "Powerbank",
+      "name": "Powerbank-v1",
       "path": "https://nikulinalexey.github.io/ar-models/models/powerbank-v1/model.glb",
       "format": "glb",
       "textures": [
@@ -77,7 +95,7 @@
     },
     {
       "id": "thor-v1",
-      "name": "Thor",
+      "name": "Thor-v1",
       "path": "https://nikulinalexey.github.io/ar-models/models/thor-v1/model.glb",
       "format": "glb",
       "textures": [
@@ -95,7 +113,7 @@
     },
     {
       "id": "vape-v1",
-      "name": "Vape",
+      "name": "Vape-v1",
       "path": "https://nikulinalexey.github.io/ar-models/models/vape-v1/model.glb",
       "format": "glb",
       "textures": [

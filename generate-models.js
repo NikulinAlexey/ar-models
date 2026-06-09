@@ -16,8 +16,8 @@ const TEXTURE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".ktx2"];
 // ===== ФУНКЦИЯ ДЛЯ ФОРМАТИРОВАНИЯ НАЗВАНИЯ =====
 function formatModelName(folderName) {
   return folderName
-    .replace(/-v\d+$/, "") // убираем -v1, -v2 и т.д.
-    .replace(/[-_]/g, " ") // заменяем дефисы и подчёркивания на пробелы
+    // .replace(/-v\d+$/, "") // убираем -v1, -v2 и т.д.
+    // .replace(/[-_]/g, " ") // заменяем дефисы и подчёркивания на пробелы
     .split(" ")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(" ");
