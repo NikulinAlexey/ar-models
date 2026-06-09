@@ -1,0 +1,54 @@
+name: Update models.json
+
+# Говорит GitHub, когда запускать этот workflow
+on:
+  # Запускать при пуше в ветку main, но только если изменения коснулись папки models/
+  push:
+    branches:
+      - main
+    paths:
+      - "models/**" # <-- Запускать только при изменениях в папке с моделями
+  # Также можно добавить ручной запуск из интерфейса GitHub
+  workflow_dispatch:
+
+# Здесь мы даём нашему скрипту разрешение на запись в репозиторий.
+# Без этого он не сможет запушить сгенерированный models.json.
+permissions:
+  contents: write
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest # Используем среду Ubuntu, так как она бесплатна и быстра
+
+    steps:
+      # 1. Скачиваем весь ваш код из репозитория в виртуальную машину
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Нужно для корректной работы Git при пуше
+
+      # 2. Устанавливаем Node.js (нужен, чтобы выполнить ваш скрипт)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20" # Используйте версию, которая у вас локально
+
+      # 3. Запускаем ваш скрипт генерации models.json
+      - name: Run generation script
+        run: node generate-models.js
+
+      # 4. Коммитим и пушим изменения обратно в репозиторий
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Добавляем сгенерированный файл
+          git add models.json
+
+          # Проверяем, есть ли изменения для коммита.
+          # Если нет, выходим без ошибки.
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+
+          # Если изменения есть, делаем коммит и пуш
+          git commit -m "Automated: update models.json"
+          git push
