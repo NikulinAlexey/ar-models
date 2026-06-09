@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T10:40:12.251Z",
-  "total": 6,
+  "generated": "2026-06-09T21:01:33.965Z",
+  "total": 7,
   "baseUrl": "https://nikulinalexey.github.io/ar-models",
   "models": [
     {
@@ -35,6 +35,24 @@
         {
           "name": "tex_u0_v0_normal",
           "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "mouse-v2",
+      "name": "Mouse",
+      "path": "https://nikulinalexey.github.io/ar-models/models/mouse-v2/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v2/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/mouse-v2/tex_u0_v0_normal.jpg",
           "type": "jpg"
         }
       ]
