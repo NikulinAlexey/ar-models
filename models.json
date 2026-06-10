@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T21:08:16.975Z",
-  "total": 7,
+  "generated": "2026-06-10T06:40:46.632Z",
+  "total": 9,
   "baseUrl": "https://nikulinalexey.github.io/ar-models",
   "models": [
     {
@@ -17,6 +17,42 @@
         {
           "name": "tex_u0_v0_normal",
           "url": "https://nikulinalexey.github.io/ar-models/models/corner-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "corner-v2",
+      "name": "Corner-v2",
+      "path": "https://nikulinalexey.github.io/ar-models/models/corner-v2/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/corner-v2/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/corner-v2/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "corner-v3",
+      "name": "Corner-v3",
+      "path": "https://nikulinalexey.github.io/ar-models/models/corner-v3/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/corner-v3/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/corner-v3/tex_u0_v0_normal.jpg",
           "type": "jpg"
         }
       ]
