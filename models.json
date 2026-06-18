@@ -1,8 +1,26 @@
 {
-  "generated": "2026-06-18T06:35:45.273Z",
-  "total": 11,
+  "generated": "2026-06-18T13:57:15.330Z",
+  "total": 12,
   "baseUrl": "https://nikulinalexey.github.io/ar-models",
   "models": [
+    {
+      "id": "aleksey-v1",
+      "name": "Aleksey-v1",
+      "path": "https://nikulinalexey.github.io/ar-models/models/aleksey-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/aleksey-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/aleksey-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
     {
       "id": "cap-v1",
       "name": "Cap-v1",
