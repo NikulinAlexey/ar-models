@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T13:57:15.330Z",
-  "total": 12,
+  "generated": "2026-06-19T11:00:12.882Z",
+  "total": 13,
   "baseUrl": "https://nikulinalexey.github.io/ar-models",
   "models": [
     {
@@ -179,6 +179,24 @@
         {
           "name": "tex_u0_v0_normal",
           "url": "https://nikulinalexey.github.io/ar-models/models/powerbank-v1/tex_u0_v0_normal.jpg",
+          "type": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "sasha-v1",
+      "name": "Sasha-v1",
+      "path": "https://nikulinalexey.github.io/ar-models/models/sasha-v1/model.glb",
+      "format": "glb",
+      "textures": [
+        {
+          "name": "tex_u0_v0_diffuse",
+          "url": "https://nikulinalexey.github.io/ar-models/models/sasha-v1/tex_u0_v0_diffuse.jpg",
+          "type": "jpg"
+        },
+        {
+          "name": "tex_u0_v0_normal",
+          "url": "https://nikulinalexey.github.io/ar-models/models/sasha-v1/tex_u0_v0_normal.jpg",
           "type": "jpg"
         }
       ]
